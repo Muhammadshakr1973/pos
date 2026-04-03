@@ -1,0 +1,23 @@
+ئەگەر بتەوێت، هەنگاوی داهاتوو دەتوانم بۆت بنووسم:
+
+remove لە ڕاستیدا “archive” بکات (نەک سڕینەوەی تەواو).
+modal ـەکە پڕۆفیشنالتر بکەین بە SweetAlert2 (کە لە package.json هەیە).
+
+
+
+
+la databeys wadekeyn her uaytmYk zyadkra bo krynSub uewa zyadbYt bo taybLy bazaR w
+ueger dwbare bww tenha kwantytyekey nwY bkatewe ,
+ueger kwantyty uaytmYk le krynSub nwY krayewe uew bRey ke zyad yan kem kra ba le teybLy bazaR heman bR zyad yan kem bkrYt ,
+ueger uaytmYk sRayewe le krynSub uewa ba bRy kwantyty uew uaytme le teybLy bazaR kem bkrYtewe w leteybLy ,
+le teybLy bazaRyS her uaytmYk kwantytyekey bwe 0 ba bsRdrYtewe .
+
+ 
+ 
+refresh btn:
+<button
+    @click="handleRefresh" class="btn btn-warning d-flex align-items-center gap-2" :disabled="isRefreshing">
+    <span v-if="isRefreshing" class="spinner-border spinner-border-sm" role="status"></span>
+    <i v-else class="fas fa-sync-alt"></i>
+    <span>نوێکردنەوە</span>
+</button>
